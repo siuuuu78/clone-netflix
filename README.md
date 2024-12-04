@@ -1,8 +1,27 @@
-# React + Vite
+# Clone Netflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk menduplikasi tampilan dan beberapa fitur dasar dari Netflix. Proyek ini juga memanfaatkan **Firebase** untuk autentikasi pengguna serta API untuk mengambil database film.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tampilan Halaman Utama**: Mirip dengan Netflix, termasuk slider film dan kategori.
+- **Autentikasi Pengguna**: Login dan registrasi dengan Firebase Authentication.
+- **Streaming Data Film**: Mengambil data film dari API eksternal.
+- **Responsif**: Optimal untuk berbagai ukuran layar.
+
+## Teknologi yang Digunakan
+
+- **React**: Library utama untuk membangun antarmuka pengguna.
+- **Vite**: Alat pengembangan modern yang cepat untuk React.
+- **Firebase**:
+  - Authentication: Untuk login dan registrasi pengguna.
+  - Hosting (opsional): Untuk menyimpan aplikasi di web.
+- **API Film**: Untuk mengambil data film (sebutkan nama API jika ada, misalnya: TMDB API).
+- **CSS/Framework**: Sebutkan jika menggunakan framework CSS seperti Tailwind, Bootstrap, dll.
+
+## Cara Menjalankan Proyek
+
+1. Clone repository ini ke komputer lokal kamu:
+   ```bash
+   git clone https://github.com/username-mu/clone-netflix.git
+   cd clone-netflix
