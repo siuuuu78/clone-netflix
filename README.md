@@ -38,7 +38,3 @@ Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk m
 5. Jalankan proyek:
     ```bash
     npm run dev
-
-
-    
-
