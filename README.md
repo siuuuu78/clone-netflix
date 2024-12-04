@@ -19,7 +19,7 @@ Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk m
 
 ## Cara Menjalankan Proyek
 
-1. Clone repository ini ke komputer lokal kamu:
+1. Clone repository:
    ```bash
    git clone https://github.com/username-mu/clone-netflix.git
    cd clone-netflix
@@ -27,3 +27,18 @@ Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk m
 2. Install dependencies:
     ```bash
     npm install
+
+3. Konfigurasi Firebase:
+    Buat proyek di Firebase Console.
+    Salin konfigurasi Firebase dan tambahkan ke file firebase.js 
+
+4. Konfigurasi API Film:
+    Dapatkan API Key dari penyedia API film, disini saya menggunakan api dari TMDB.
+
+5. Jalankan proyek:
+    ```bash
+    npm run dev
+
+
+    
+
