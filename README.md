@@ -15,9 +15,7 @@ Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk m
 - **Vite**: Alat pengembangan modern yang cepat untuk React.
 - **Firebase**:
   - Authentication: Untuk login dan registrasi pengguna.
-  - Hosting (opsional): Untuk menyimpan aplikasi di web.
-- **API Film**: Untuk mengambil data film (sebutkan nama API jika ada, misalnya: TMDB API).
-- **CSS/Framework**: Sebutkan jika menggunakan framework CSS seperti Tailwind, Bootstrap, dll.
+- **API Film**: Untuk mengambil data film menggunakan api dari TMDB.
 
 ## Cara Menjalankan Proyek
 
@@ -25,3 +23,7 @@ Clone Netflix adalah proyek yang dibuat menggunakan **React** + **Vite** untuk m
    ```bash
    git clone https://github.com/username-mu/clone-netflix.git
    cd clone-netflix
+
+2. Install dependencies:
+    ```bash
+    npm install
